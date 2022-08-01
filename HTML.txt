@@ -1,0 +1,333 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- <meta name="viewport" content="width=device-width , initial-scale=1.0" /> -->
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="icon" href="/images/Brownmine-Yellow.png" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Website</title>
+
+
+</head>
+
+<body>
+    <div id="Header">
+        <div class="Cover">
+            <nav>
+                <img target="_blank" href="/index.html" src="/images/logo.png" />
+                <div class="nav-links" id="Links">
+                    <i class="fa fa-times" style="color: white;" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a target="_blank" href="/Untitled-1.html">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">COURSE</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" style="color: white;" onclick="showMenu()"></i>
+
+            </nav>
+
+            <div id="text-box">
+                <h1>WROLD'S BIGGEST UNIVERSITY WEBSITE</h1>
+                <p>
+                    Making Websites is one of the Most the easiest thing in
+                    the World ,
+                    You just need to learn<br />
+                    HTML , CSS Javascript , and you are good to go.
+                </p>
+                <a target="_blank" href="/Untitled-1.html" class="hero-btn">ENROLL
+                    NOW!</a>
+            </div>
+        </div>
+    </div>
+    <div id="Second-Image">
+
+        <div id="content-box">
+            <h1>COURSE WE OFFER</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quidem numquam laboriosam alias fugiat
+                velit.
+
+            </p>
+
+            <div id="Content-box-A">
+
+                <div class="Intermediate">
+                    <h2>Intermediate</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste velit animi iusto debitis,
+                        voluptatem numquam dolore ipsum commodi nam blanditiis incidunt totam! Corrupti, numquam
+                        repellat?
+                        Sunt quae eveniet quia Illum dignissimos!</p>
+
+
+                </div>
+                <div class="Degree">
+                    <h2>Degree</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste velit animi iusto debitis,
+                        voluptatem numquam dolore ipsum commodi nam blanditiis incidunt totam! Corrupti, numquam
+                        repellat?
+                        Sunt quae eveniet quia Illum dignissimos!</p>
+                </div>
+                <div class="Post-Graduation">
+                    <h2>Post Graduation</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste velit animi iusto debitis,
+                        voluptatem numquam dolore ipsum commodi nam blanditiis incidunt totam! Corrupti, numquam
+                        repellat?
+                        Sunt quae eveniet quia Illum dignissimos!</p>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div id="content-box-Campus">
+            <h1>OUR GLOBLE CAMPUS</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quidem numquam laboriosam alias fugiat
+                velit.
+
+            </p>
+
+            <div id="Content-box-Campus-A">
+
+                <div class="Intermediate">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+
+                </div>
+                <div class="Degree">
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </div>
+                <div class="Post-Graduation">
+                    <div class="layer">
+                        <h3>WASINGTON</h3>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+        <div id="content-box-Facilities">
+            <h1>OUR FACILITIES</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quidem numquam laboriosam alias fugiat
+                velit.
+
+            </p>
+            <div id="Content-box-Facilities-A">
+
+                <div class="Intermediate">
+                    <img src="/images/library.png" alt="">
+                    <h2>World Class Library</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste velit animi iusto debitis.
+                    </p>
+                </div>
+                <div class="Degree">
+                    <img src="/images/basketball.png" alt="">
+                    <h2>Largest Play Ground</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste velit animi iusto debitis.
+                    </p>
+                </div>
+                <div class="Post-Graduation">
+                    <img src="/images/cafeteria.png" alt="">
+                    <h2>Tasty and Healthy Food</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste velit animi iusto debitis.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+        <div id="content-box-Student">
+            <h1>WHAT OUR STUDENTS SAYS</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quidem numquam laboriosam alias fugiat
+                velit.
+
+            </p>
+
+            <div id="Content-box-Student-A">
+
+                <div class="Intermediate">
+
+                    <img src="/images/user2.jpg" alt="">
+                    <div class="Intermediate-Description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste velit animi iusto
+                            debitis,
+                            voluptatem numquam dolore ipsum commodi nam blanditiis incidunt totam! Corrupti, numquam
+                            repellat?
+                            Sunt quae eveniet quia Illum dignissimos!</p>
+                        <h2>Khawar Sultan</h2>
+                        <h3><i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                        </h3>
+
+
+                    </div>
+                </div>
+                <div class="Post-Graduation">
+                    <img src="/images/user2.jpg" alt="">
+                    <div class="Post-Graduation-Description">
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste velit animi iusto
+                            debitis,
+                            voluptatem numquam dolore ipsum commodi nam blanditiis incidunt totam! Corrupti, numquam
+                            repellat?
+                            Sunt quae eveniet quia Illum dignissimos!</p>
+                        <h2>Rana Subhan</h2>
+                        <h3>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </h3>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+        <div id="content-box-Contact">
+            <h1>FOR ANY QUERY</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quidem numquam laboriosam alias fugiat
+                velit.
+
+            </p>
+
+            <div id="Content-box-Contact-A">
+
+                <div class="Intermediate">
+                    <div class="Cover">
+
+                        <h2>ENROLL FOR OUR VARIOUS ONLINE COURSES <br> ANYWHERE FROM THE WORLD</h2>
+                        <a target="_blank" href="/Untitled-1.html" class="btn">CONTACT US</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div id="Content-box-About-A">
+
+            <div class="Intermediate">
+
+                <h2>ABOUT US</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta unde veritatis eius voluptatem
+                    repudiandae ad, commodi asperiores, nobis ab, ut inventore tempora distinctio. Perferendis,
+                    rerum!</p>
+                <h3>
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                    <i class="fab fa-twitter fa-lg"></i>
+                    <i class="fab fa-instagram fa-lg"></i>
+                    <i class="fab fa-Linkedin fa-lg"></i>
+
+                </h3>
+                <div class="P2">
+                    <p>MADE BY <span class="Red-P"><img src="/images/heart-solid.svg" /> KHAWAR SULTAN </span> </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script>
+        var navLinks = document.getElementById("Links");
+
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-230px";
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,1548 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@font-face {
+
+    src: url("/Font/Agency.TTF");
+    font-family: "Agency-Fb";
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Agency-Fb";
+
+}
+
+#Header {
+    background-image: url(/images/banner.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+#Header .cover {
+    height: 100vh;
+    width: 100%;
+    background-color: #343434a2;
+    /* opacity: 0.5; */
+
+}
+
+nav {
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    padding: 2% 0%;
+    width: 90vw;
+    margin: auto;
+    justify-content: space-between;
+    justify-items: center;
+
+
+}
+
+nav img {
+    /* border: 2px solid whitesmoke; */
+    width: 12vw;
+    height: 9vh;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+nav img:hover {
+    opacity: 0.8;
+}
+
+.nav-links {
+    /* border: 2px solid whitesmoke; */
+    flex: 1;
+    text-align: right;
+    padding: 32px 0px;
+
+}
+
+.nav-links ul li {
+    display: inline-block;
+    padding: 8px 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 7px 22px;
+    border: 2px solid whitesmoke;
+    text-align: center;
+    /* transition: 1.2s; */
+
+}
+
+.nav-links ul li a:hover {
+    color: black;
+    background-color: whitesmoke;
+    transition: 1.2s;
+
+}
+
+#text-box {
+    /* border: 2px solid rgb(229, 255, 0); */
+    margin-top: 8%;
+    text-align: center;
+
+}
+
+#text-box h1 {
+
+    /* border: 2px solid whitesmoke; */
+    padding: 20px 0px;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: bold;
+    width: 90vw;
+    margin: 0% auto auto auto;
+
+
+}
+
+#text-box p {
+    margin: auto auto 2% auto;
+    /* border: 2px solid whitesmoke; */
+    color: whitesmoke;
+    padding: 20px 0px;
+    font-size: 18px;
+    width: 90vw;
+}
+
+#text-box .hero-btn {
+    margin-top: 1%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 20px;
+    padding: 15px 50px;
+    /* border: 2px solid whitesmoke; */
+    border-radius: 4px;
+}
+
+#text-box .hero-btn:hover {
+    background-color: #ff0000;
+    color: whitesmoke;
+    transition: 1.2s;
+
+}
+
+nav .fa {
+    display: none;
+
+}
+
+
+
+
+
+
+#Second-Image {
+    width: 100%;
+    height: 511vh;
+
+}
+
+#content-box {
+    width: 100%;
+    height: 78vh;
+    overflow: hidden;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+#content-box h1 {
+    margin-top: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    /* border: 2px solid rgb(255, 0, 0); */
+    margin: 3% auto auto auto;
+    width: 90vw;
+
+    text-align: center;
+}
+
+#content-box p {
+
+    color: rgb(169, 169, 169);
+    font-size: 18px;
+    margin: 1% auto auto auto;
+    width: 90vw;
+
+    /* border: 2px solid rgb(255, 0, 0); */
+    text-align: center;
+}
+
+#Content-box-A {
+    margin: 3% auto auto auto;
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    /* border: 2px solid rgb(4, 0, 248); */
+}
+
+#Content-box-A .Intermediate {
+    margin-top: 2%;
+    margin-right: 2%;
+    width: 40%;
+    padding: 10px 10px auto auto;
+    text-align: left;
+    margin-left: 1%;
+    height: 40vh;
+    /* border: 2px solid rgb(255, 0, 0); */
+    background-color: #fff3f3;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#Content-box-A .Intermediate:hover {
+    transition: 0.8s;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+#Content-box-A .Intermediate h2 {
+    font-size: 30px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 85%;
+    text-align: center;
+    margin: 16% auto 2% auto;
+
+
+
+
+}
+
+#Content-box-A .Intermediate p {
+
+
+
+    color: rgb(169, 169, 169);
+    margin-top: 1%;
+    width: 85%;
+    text-align: center;
+    /* border: 2px solid rgb(255, 0, 0); */
+
+    margin: auto auto 13% auto;
+}
+
+#Content-box-A .Degree {
+    overflow: hidden;
+    width: 40%;
+    height: 40vh;
+    /* border: 2px solid rgb(255, 0, 0); */
+    background-color: #fff3f3;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+
+#Content-box-A .Degree:hover {
+    transition: 0.8s;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+#Content-box-A .Degree h2 {
+    font-size: 30px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 85%;
+    text-align: center;
+    margin: 16% auto 2% auto;
+}
+
+#Content-box-A .Degree p {
+
+
+
+    color: rgb(169, 169, 169);
+    margin-top: 1%;
+    width: 85%;
+    text-align: center;
+    /* border: 2px solid rgb(255, 0, 0); */
+    margin: auto auto 13% auto;
+}
+
+#Content-box-A .Post-Graduation {
+    margin-left: 2%;
+    overflow: hidden;
+    width: 40%;
+    height: 40vh;
+    /* border: 2px solid rgb(255, 0, 0); */
+    background-color: #fff3f3;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+
+#Content-box-A .Post-Graduation:hover {
+    transition: 0.8s;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+#Content-box-A .Post-Graduation h2 {
+    font-size: 30px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 85%;
+    text-align: center;
+    margin: 16% auto 2% auto;
+}
+
+
+#Content-box-A .Post-Graduation p {
+    color: rgb(169, 169, 169);
+    margin-top: 1%;
+    width: 85%;
+    text-align: center;
+    /* border: 2px solid rgb(255, 0, 0); */
+    margin: auto auto 13% auto;
+}
+
+
+
+
+
+
+#content-box-Campus {
+
+
+    width: 100%;
+    height: 126vh;
+    overflow: hidden;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+#content-box-Campus h1 {
+    margin-top: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    /* border: 2px solid rgb(255, 0, 0); */
+    margin: 3% auto auto auto;
+    width: 90vw;
+
+    text-align: center;
+}
+
+#content-box-Campus p {
+
+    color: rgb(169, 169, 169);
+    font-size: 18px;
+    margin: 1% auto auto auto;
+    width: 90vw;
+
+    /* border: 2px solid rgb(255, 0, 0); */
+    text-align: center;
+}
+
+#Content-box-Campus-A {
+    margin: 3% auto auto auto;
+    width: 90%;
+    height: 93vh;
+    display: flex;
+    /* border: 2px solid rgb(4, 0, 248); */
+}
+
+#Content-box-Campus-A .Intermediate {
+
+    overflow: hidden;
+    background-image: url(/images/london.png);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 1%;
+    width: 40%;
+    height: 85vh;
+    border-radius: 20px;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.layer {
+    background: transparent;
+    width: 100%;
+    height: 85vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer h3 {
+    /* display: none; */
+    width: 100%;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.5px;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    opacity: 0%;
+}
+
+.layer:hover h3 {
+    bottom: 50%;
+    opacity: 1;
+    /* padding: 175px 175px 175px 175px; */
+}
+
+.layer:hover {
+    background: rgba(226, 0, 0, 0.7);
+
+}
+
+#Content-box-Campus-A .Intermediate:hover {
+
+
+
+
+
+    transition: 0.8s;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+#Content-box-Campus-A .Degree {
+
+    overflow: hidden;
+    background-image: url(/images/newyork.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 40%;
+    height: 85vh;
+    /* border: 2px solid rgb(255, 0, 0); */
+    background-color: #fff3f3;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+
+#Content-box-Campus-A .Degree:hover {
+    transition: 0.8s;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+#Content-box-Campus-A .Post-Graduation {
+    overflow: hidden;
+
+    background-image: url(/images/washington.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left: 2%;
+    width: 40%;
+    height: 85vh;
+    background-color: #fff3f3;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-right: 1%;
+    /* border: 2px solid rgb(255, 0, 0); */
+
+}
+
+#Content-box-Campus-A .Post-Graduation:hover {
+    transition: 0.8s;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+#content-box-Facilities {
+
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+#content-box-Facilities h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 3% auto auto auto;
+    width: 90vw;
+    text-align: center;
+}
+
+#content-box-Facilities p {
+
+    color: rgb(169, 169, 169);
+    font-size: 18px;
+    margin: 1% auto auto auto;
+    width: 90vw;
+
+    text-align: center;
+}
+
+#Content-box-Facilities-A {
+    margin: 3% auto auto auto;
+    width: 90%;
+    height: 65vh;
+    display: flex;
+    /* border: 2px solid rgb(4, 0, 248); */
+}
+
+#Content-box-Facilities-A .Intermediate img {
+
+
+    margin-top: 6%;
+    margin-right: 1%;
+    margin-left: 3%;
+    width: 94.5%;
+    height: 45vh;
+    border-radius: 20px;
+    background-repeat: none;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    /* border: 2px solid rgb(255, 0, 0); */
+    /* background-color: #fff3f3;
+    height: 40vh;
+    width: 95%;
+    margin: 4% 2% auto auto;
+    border-radius: 20px; */
+
+}
+
+#Content-box-Facilities-A .Intermediate h2 {
+    font-size: 30px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    /* margin: 13% auto 2% auto; */
+
+
+
+    text-align: left;
+    width: 95%;
+    margin: 2% 3%;
+    margin-top: 3%;
+}
+
+#Content-box-Facilities-A .Intermediate p {
+
+
+
+    color: rgb(169, 169, 169);
+    margin: 0% 3%;
+    width: 95%;
+    text-align: left;
+    /* border: 2px solid rgb(255, 0, 0); */
+
+}
+
+#Content-box-Facilities-A .Degree img {
+
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 6%;
+    margin-right: 2%;
+    margin-left: 3%;
+    width: 94.2%;
+    height: 45vh;
+    border-radius: 20px;
+
+}
+
+#Content-box-Facilities-A .Degree h2 {
+    font-size: 30px;
+    text-align: left;
+    width: 95%;
+    margin: 2% 3%;
+    margin-top: 3%;
+}
+
+#Content-box-Facilities-A .Degree p {
+    color: rgb(169, 169, 169);
+    margin: 0% 3%;
+    width: 95%;
+    text-align: left;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+#Content-box-Facilities-A .Post-Graduation img {
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 6%;
+    margin-right: 3%;
+    margin-left: 3%;
+    width: 94%;
+    height: 45vh;
+    border-radius: 20px;
+}
+
+#Content-box-Facilities-A .Post-Graduation h2 {
+    font-size: 30px;
+    text-align: left;
+    width: 95%;
+    margin: 2% 3%;
+    margin-top: 3%;
+}
+
+#Content-box-Facilities-A .Post-Graduation p {
+    color: rgb(169, 169, 169);
+    margin: 0% 3%;
+    width: 95%;
+    text-align: left;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+
+
+
+
+
+
+#content-box-Student {
+    margin-top: 1%;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+#content-box-Student h1 {
+    font-size: 50px;
+    font-weight: bold;
+    /* border: 2px solid rgb(255, 0, 0); */
+    margin: 1% auto auto auto;
+    width: 90vw;
+
+    text-align: center;
+}
+
+#content-box-Student p {
+
+    color: rgb(169, 169, 169);
+    font-size: 18px;
+    margin: 1% auto auto auto;
+    width: 90vw;
+
+    /* border: 2px solid rgb(255, 0, 0); */
+    text-align: center;
+}
+
+#Content-box-Student-A {
+    margin: 3% auto auto auto;
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    /* border: 2px solid rgb(4, 0, 248); */
+}
+
+#Content-box-Student-A .Intermediate {
+    margin-top: 2%;
+    margin-right: 1%;
+    width: 50%;
+    padding: 10px 10px auto auto;
+    text-align: left;
+    display: flex;
+    overflow: hidden;
+    margin-left: 1%;
+    height: 35vh;
+    /* border: 2px solid rgb(255, 0, 0); */
+    background-color: #fff3f3;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#Content-box-Student-A .Intermediate:hover {
+    transition: 0.8s;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+#Content-box-Student-A .Intermediate img {
+
+    overflow: hidden;
+
+    width: 33%;
+    max-height: 29%;
+
+
+    /* box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.2); */
+    margin: 5% 3%;
+    border-radius: 50%;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+#Content-box-Student-A .Intermediate-Description p {
+    color: rgb(169, 169, 169);
+    margin-top: 1%;
+    width: 95%;
+    text-align: left;
+    font-size: 20px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    margin: 7% 3% 5% auto;
+    /* padding-left: 10%; */
+
+}
+
+#Content-box-Student-A .Intermediate-Description h2 {
+    font-size: 30px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 95%;
+    text-align: left;
+    margin: 3% 3% 0% auto;
+
+
+
+}
+
+#Content-box-Student-A .Intermediate-Description h3 {
+    font-size: 20px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 95%;
+    text-align: left;
+    margin: 2% 3% 0% auto;
+}
+
+#Content-box-Student-A .Post-Graduation {
+    overflow: hidden;
+    margin-left: 1%;
+    width: 50%;
+    height: 35vh;
+    /* border: 2px solid rgb(255, 0, 0); */
+    background-color: #fff3f3;
+    border-radius: 20px;
+    margin-top: 2%;
+    overflow: hidden;
+    margin-right: 1%;
+    display: flex;
+}
+
+#Content-box-Student-A .Post-Graduation:hover {
+    transition: 0.8s;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+#Content-box-Student-A .Post-Graduation img {
+    width: 33%;
+    height: 29%;
+    margin: 5% 3%;
+    border-radius: 50%;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+#Content-box-Student-A .Post-Graduation-Description p {
+    color: rgb(169, 169, 169);
+    margin-top: 1%;
+    width: 95%;
+    text-align: left;
+    font-size: 20px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    margin: 7% 3% auto auto;
+}
+
+#Content-box-Student-A .Post-Graduation-Description h2 {
+    font-size: 30px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 95%;
+    text-align: left;
+    margin: 3% 3% 0% auto;
+}
+
+#Content-box-Student-A .Post-Graduation-Description h3 {
+    font-size: 20px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 95%;
+    text-align: left;
+    margin: 2% 3% 2% auto;
+}
+
+
+
+
+
+
+
+
+
+
+#content-box-Contact {
+    width: 100%;
+    height: 88vh;
+    overflow: hidden;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+#content-box-Contact h1 {
+    margin-top: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    /* border: 2px solid rgb(255, 0, 0); */
+    margin: 3% auto auto auto;
+    width: 90vw;
+    text-align: center;
+}
+
+#content-box-Contact p {
+    color: rgb(169, 169, 169);
+    font-size: 18px;
+    margin: 1% auto auto auto;
+    width: 90vw;
+    /* border: 2px solid rgb(255, 0, 0); */
+    text-align: center;
+}
+
+#Content-box-Contact-A {
+    margin: 3% auto auto auto;
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    /* border: 2px solid rgb(4, 0, 248); */
+}
+
+#Content-box-Contact-A .Intermediate {
+    overflow: hidden;
+    background-image: url(/images/banner2.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 2%;
+    margin-right: 1%;
+    width: 100%;
+    text-align: left;
+    margin-left: 1%;
+    height: 54vh;
+    background-color: #fff3f3;
+    border-radius: 20px;
+    text-align: center;
+    /* border: 2px solid rgb(255, 0, 0); */
+    /* padding: 5px 5px auto auto; */
+    /* overflow: hidden; */
+
+}
+
+
+#Content-box-Contact-A .Intermediate h2 {
+    font-size: 45px;
+    color: white;
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 90%;
+    margin: 9% auto 2% auto;
+}
+
+
+#Content-box-Contact-A .Intermediate .btn {
+    margin-top: 1%;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 15px 50px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    /* margin-left: 45%; */
+}
+
+#Content-box-Contact-A .Intermediate .btn:hover {
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+    color: rgb(255, 255, 255);
+    transition: 1.2s;
+
+}
+
+#Content-box-Contact-A .cover {
+    height: 55vh;
+    width: 100%;
+    background-color: #343434a2;
+    /* opacity: 0.5; */
+
+}
+
+
+#Content-box-About-A {
+    margin: 3% auto auto auto;
+    width: 90%;
+    height: 40vh;
+    overflow: hidden;
+    display: flex;
+    /* border: 2px solid rgb(4, 0, 248); */
+}
+
+#Content-box-About-A .Intermediate {
+    /* background-image: url(/images/banner2.jpg); */
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 2%;
+    margin-right: 1%;
+    width: 100%;
+    text-align: left;
+    margin-left: 1%;
+    height: 43vh;
+    /* background-color: #fff3f3; */
+    border-radius: 20px;
+    text-align: center;
+    /* border: 2px solid rgb(255, 0, 0); */
+    overflow: hidden;
+    /* padding: 5px 5px auto auto; */
+    /* overflow: hidden; */
+
+}
+
+
+#Content-box-About-A .Intermediate h2 {
+    font-size: 37px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 60vw;
+    margin: 3% auto 2% auto;
+}
+
+#Content-box-About-A .Intermediate p {
+    font-size: 18px;
+    margin: 1% auto auto auto;
+    width: 60vw;
+    /* border: 2px solid rgb(255, 0, 0); */
+    text-align: center;
+}
+
+#Content-box-About-A .Intermediate h3 {
+    font-size: 20px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 60vw;
+    text-align: center;
+    margin: 1% auto auto auto;
+}
+
+#Content-box-About-A .Intermediate h3 .fab {
+    /* border: 2px solid rgb(255, 0, 0); */
+    font-size: 22px;
+    padding: 0.5%;
+    color: #ec0f0f;
+}
+
+#Content-box-About-A .Intermediate h3 .fab:hover {
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+#Content-box-About-A .Intermediate .P2 p {
+    font-size: 18px;
+    margin: 1% auto auto auto;
+    width: 60vw;
+    /* border: 2px solid rgb(255, 0, 0); */
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#Content-box-About-A .Intermediate .P2 img {
+    width: 15px;
+}
+
+#Content-box-About-A .Intermediate .P2 img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+.Red-P {
+    color: #ec0f0f;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+
+
+    #Header {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #text-box h1 {
+        margin-top: 12%;
+        font-size: 40px;
+    }
+
+    .nav-links ul li {
+        display: flex;
+
+    }
+
+    /* 
+    nav img {
+        width: 19%;
+        height: 15%;
+    } */
+    nav img {
+        /* border: 2px solid whitesmoke; */
+        width: 25vw;
+        margin: 6% 0px 0px 0px;
+        height: 9vh;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        /* border: 2px solid whitesmoke; */
+        display: block;
+        position: absolute;
+        background-color: #ff0000;
+        z-index: 2;
+        top: 0;
+        right: -230px;
+        width: 230px;
+        height: 100vh;
+        transition: 1s;
+    }
+
+    .nav-links ul li a {
+        margin-top: 10px;
+        padding: 17px 90px;
+        /* transition: 1.2s; */
+
+    }
+
+    nav .fa {
+        text-align: left;
+        display: block;
+        color: whitesmoke;
+        font-size: 35px;
+        cursor: pointer;
+        margin: 40px 10px;
+        margin-bottom: 30px;
+        /* background-color: aqua; */
+        /* padding: 0px 11px ; */
+        /* margin-bottom: 90%; */
+    }
+
+    #text-box .hero-btn {
+        margin-top: 3%;
+
+
+    }
+
+    #content-box h1 {
+        font-size: 40px;
+    }
+
+    #content-box {
+        overflow: hidden;
+        height: 175vh;
+        /* border: 2px solid rgb(255, 0, 0); */
+    }
+
+    #content-box h1 {
+        margin-top: 15%;
+    }
+
+    #Content-box-A {
+
+        height: 137vh;
+        display: block;
+        overflow: hidden;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #Content-box-A .Intermediate {
+        width: 90%;
+
+        margin-left: 2%;
+        overflow: hidden;
+        margin: 3% auto;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #Content-box-A .Intermediate h2 {
+        margin-top: 12%;
+    }
+
+    #Content-box-A .Degree {
+        margin-left: 2%;
+        width: 90%;
+        overflow: hidden;
+        margin: 3% auto;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #Content-box-A .Degree h2 {
+        margin-top: 12%;
+    }
+
+    #Content-box-A .Post-Graduation {
+        width: 90%;
+        overflow: hidden;
+        margin: 3% auto;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #Content-box-A .Post-Graduation h2 {
+        margin-top: 12%;
+    }
+
+
+
+    #content-box-Campus {
+
+        width: 100%;
+        height: 370vh;
+        overflow: hidden;
+        /* border: 2px solid rgb(255, 0, 0); */
+    }
+
+    #Content-box-Campus-A {
+
+        height: 433vh;
+        display: block;
+        overflow: hidden;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #content-box-Campus h1 {
+        font-size: 40px;
+
+    }
+
+    #Content-box-Campus-A .Intermediate {
+        width: 90%;
+        margin-left: 2%;
+        height: 110vh;
+        overflow: hidden;
+        margin: 3% auto;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #Content-box-Campus-A .Degree {
+        margin-left: 2%;
+        width: 90%;
+        height: 110vh;
+        overflow: hidden;
+        margin: 3% auto;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #Content-box-Campus-A .Post-Graduation {
+        width: 90%;
+        height: 110vh;
+        overflow: hidden;
+        margin: 3% auto;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+
+
+
+
+
+
+
+
+    #content-box-Facilities h1 {
+        font-size: 40px;
+
+    }
+
+    .layer {
+
+        height: 110vh;
+
+    }
+
+    #content-box-Facilities {
+        width: 100%;
+        height: 250vh;
+        /* border: 2px solid rgb(248, 0, 0); */
+        margin: auto;
+    }
+
+    #content-box-Facilities h2 {
+        font-size: 40px;
+    }
+
+    #Content-box-Facilities-A {
+        display: block;
+        height: 230vh;
+        overflow: hidden;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #Content-box-Facilities-A .Intermediate img {
+        height: 55vh;
+        width: 90%;
+        overflow: hidden;
+        margin-left: 2%;
+        overflow: hidden;
+        margin: 3% auto;
+        left: 30;
+        /* border: 2px solid rgb(4, 0, 248); */
+
+    }
+
+    #Content-box-Facilities-A .Intermediate h2 {
+        text-align: center;
+    }
+
+    #Content-box-Facilities-A .Intermediate p {
+        text-align: center;
+    }
+
+    #Content-box-Facilities-A .Degree img {
+        height: 55vh;
+        width: 90%;
+        overflow: hidden;
+        margin: 3% auto;
+        left: 30;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #Content-box-Facilities-A .Degree h2 {
+        text-align: center;
+    }
+
+    #Content-box-Facilities-A .Degree p {
+        text-align: center;
+    }
+
+    #Content-box-Facilities-A .Post-Graduation img {
+        height: 50vh;
+        width: 90%;
+        overflow: hidden;
+        margin: 3% auto;
+        left: 30;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #Content-box-Facilities-A .Post-Graduation h2 {
+        text-align: center;
+    }
+
+    #Content-box-Facilities-A .Post-Graduation p {
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+    #content-box-Student {
+        height: 115vh;
+        /* margin-top: -15%; */
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #content-box-Student h1 {
+        margin-top: 5%;
+        font-size: 40px;
+    }
+
+    #Content-box-Student-A {
+        height: 300vh;
+        display: block;
+        /* border: 2px solid rgb(248, 0, 0); */
+        overflow: hidden;
+    }
+
+
+    #Content-box-Student-A .Intermediate {
+        overflow: hidden;
+        width: 90%;
+        height: 38vh;
+        /* border: 2px solid rgb(255, 0, 0); */
+        margin: 3% auto;
+    }
+
+    #content-box-Student-A .Intermediate img {
+        width: 40%;
+        /* border: 2px solid rgb(255, 0, 0); */
+    }
+
+    #Content-box-Student-A .Post-Graduation {
+        overflow: hidden;
+        width: 90%;
+        height: 38vh;
+        /* border: 2px solid rgb(255, 0, 0); */
+        margin: 3% auto;
+    }
+
+    #content-box-Student-A .Post-Graduation img {
+        width: 40%;
+    }
+
+
+
+
+
+
+    #Content-box-Contact {
+        /* border: 2px solid rgb(255, 0, 0); */
+        height: 84vh;
+    }
+
+    #Content-box-Contact h1 {
+        /* border: 2px solid rgb(255, 0, 0); */
+        font-size: 40px;
+    }
+
+    #Content-box-Contact-A {
+        /* border: 2px solid rgb(255, 0, 0); */
+    }
+
+    #Content-box-Contact-A .Intermediate {
+        /* border: 2px solid rgb(255, 0, 0); */
+    }
+
+    #Content-box-Contact-A .Intermediate h2 {
+        font-size: 40px;
+        margin-top: 10%;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    #text-box h1 {
+        margin-top: 30%;
+    }
+
+    /* nav img {
+        margin-top: 3%;
+        width: 25%;
+        height: 15%;
+    } */
+
+    nav img {
+        /* border: 2px solid whitesmoke; */
+        width: 45vw;
+        margin: 10% 0px 0px 0px;
+        height: 8vh;
+
+    }
+
+    /* #content-box h1 {
+        margin-top: 15%;
+    } */
+
+    #content-box {
+        height: 153vh;
+    }
+
+    #content-box-A {
+        height: 130vh;
+    }
+
+    #content-box-Student {
+        margin-top: -20%;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #content-box-Campus {
+
+        height: 255vh;
+        /* border: 2px solid rgb(255, 0, 0); */
+    }
+
+
+    .layer {
+
+        height: 80vh;
+
+    }
+
+    #Content-box-Campus-A .Intermediate {
+        height: 75vh;
+
+
+    }
+
+    #Content-box-Campus-A .Degree {
+        height: 75vh;
+
+
+    }
+
+    #Content-box-Campus-A .Post-Graduation {
+        height: 75vh;
+
+
+    }
+
+    #content-box-Facilities {
+        /* border: 2px solid rgb(248, 0, 0); */
+        height: 220vh;
+    }
+
+    #content-box-Facilities h1 {
+        margin-top: -1%;
+    }
+
+    #Content-box-Facilities-A .Intermediate img {
+        height: 50vh;
+        width: 90%;
+        overflow: hidden;
+        margin-left: 2%;
+        overflow: hidden;
+        margin: 3% auto;
+        left: 20;
+        /* border: 2px solid rgb(4, 0, 248); */
+
+    }
+
+    #Content-box-Facilities-A .Degree img {
+        height: 50vh;
+        width: 90%;
+        margin: 3% auto;
+        left: 20;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #Content-box-Facilities-A .Post-Graduation img {
+        height: 50vh;
+        width: 90%;
+        margin: 3% auto;
+        left: 20;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+
+    #content-box-Student {
+        margin-top: 0%;
+        /* border: 2px solid rgb(4, 0, 248); */
+        height: 140vh;
+    }
+
+    #content-box-Student-A {
+        margin-top: 10%;
+    }
+
+    #content-box-Student-A .Intermediate {
+        display: block;
+        height: 50vh;
+        /* border: 2px solid rgb(4, 0, 248); */
+        text-align: center;
+        align-items: center;
+    }
+
+    #content-box-Student-A .Intermediate img {
+        height: 12vh;
+        width: 30%;
+        /* margin: 6% auto 3% 30%; */
+    }
+
+    #content-box-Student-A .Intermediate p {
+        margin: 1% 0px;
+        padding: 0 4%;
+        text-align: justify;
+        width: 100%;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #content-box-Student-A .Intermediate h2 {
+        margin: 1% 0px;
+        padding: 0 4%;
+        text-align: justify;
+        width: 100%;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #content-box-Student-A .Intermediate h3 {
+        margin: 1% 0px;
+        padding: 0 4%;
+        text-align: justify;
+        width: 100%;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #content-box-Student-A .Post-Graduation {
+        margin-top: 5%;
+        display: block;
+        height: 50vh;
+        text-align: center;
+    }
+
+    #content-box-Student-A .Post-Graduation img {
+        height: 12vh;
+        width: 30%;
+        /* margin: 6% auto 3% 30%; */
+    }
+
+    #content-box-Student-A .Post-Graduation p {
+        margin: 1% 0px;
+        padding: 0 4%;
+        text-align: justify;
+        width: 100%;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #content-box-Student-A .Post-Graduation h2 {
+        margin: 2% 0px;
+        padding: 0 4%;
+        text-align: justify;
+        width: 100%;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #content-box-Student-A .Post-Graduation h3 {
+        margin: 2% 0px;
+        padding: 0 4%;
+        text-align: justify;
+        width: 100%;
+        /* border: 2px solid rgb(4, 0, 248); */
+    }
+
+    #Content-box-Contact {
+        height: 80vh;
+    }
+
+    #Content-box-About-A .Intermediate h3 .fab {
+        /* border: 2px solid rgb(255, 0, 0); */
+        padding: 1.5%;
+    }
+
+    #content-box-Contact h1 {
+        font-size: 40px;
+
+    }
+
+}
