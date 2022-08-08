@@ -451,7 +451,7 @@ text-decoration: none;
 
     font-weight: bold;
     width: 80%;
-    margin: 10% auto 21% auto;
+    margin: 310px auto 23% auto;
 
 }
 
@@ -608,7 +608,7 @@ text-decoration: none;
     background-color: transparent;
     color: black;
     transition: 1s;
-
+text-decoration:none;
 }
 
 
