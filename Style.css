@@ -20,13 +20,16 @@ p {
     font-size: 16px;
     overflow-y: hidden;
 }
-h1{
+
+h1 {
     overflow-y: hidden;
 }
-h2{
+
+h2 {
     overflow-y: hidden;
 }
-h3{
+
+h3 {
     overflow-y: hidden;
 }
 
@@ -91,7 +94,7 @@ h3{
     background-color: white;
     color: black;
     transition: 1s;
-text-decoration: none;
+    text-decoration: none;
 }
 
 
@@ -352,7 +355,7 @@ nav .fa {
     background-color: whitesmoke;
     color: black;
     transition: 1s;
-text-decoration: none;
+    text-decoration: none;
 }
 
 
@@ -608,7 +611,7 @@ text-decoration: none;
     background-color: transparent;
     color: black;
     transition: 1s;
-text-decoration:none;
+    text-decoration: none;
 }
 
 
@@ -757,13 +760,13 @@ text-decoration:none;
     }
 
     #text-box h1 {
-    overflow-y: hidden;
-    margin: 200px auto 50px auto;
+        overflow-y: hidden;
+        margin: 200px auto 50px auto;
         /* border: 2px solid rgb(255, 0, 0); */
     }
 
     #text-box p {
-    overflow-y: hidden;
+        overflow-y: hidden;
         margin: auto auto auto auto;
     }
 
@@ -878,6 +881,11 @@ text-decoration:none;
 
     }
 
+    #text-box-ABOUT h1 {
+
+        margin: 250px auto 23% auto;
+
+    }
 
     .Intermediate-Student {
 
@@ -910,7 +918,7 @@ text-decoration:none;
         color: rgb(169, 169, 169);
         width: 90%;
         text-align: center;
-    overflow-y: hidden;
+        overflow-y: hidden;
         /* border: 2px solid rgb(255, 0, 0); */
     }
 
