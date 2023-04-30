@@ -161,7 +161,7 @@ nav .fa {
   background-size: cover;
   transition: 0.2s;
   width: 100%;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .Intermediate img:hover {
@@ -174,8 +174,8 @@ nav .fa {
   width: 100%;
 }
 
-.Intermediate:hover {
-  transition: 0.5s;
+.Intermediate:hover{
+  transition: 0.2s;
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -199,7 +199,7 @@ nav .fa {
 .Intermediate-Campus {
   position: relative;
   width: 100%;
-  border-radius: 20px;
+     border-radius: 10px;
   margin: 2% 1% 2% 1%;
   /* border: 2px solid rgb(255, 0, 0); */
 }
@@ -250,7 +250,7 @@ nav .fa {
 .Intermediate-DivFlex {
   transition: 0.5s;
   width: 100%;
-  border-radius: 20px;
+     border-radius: 10px;
   background-color: #fff3f3;
   margin: 2% 1% 2% 1%;
   display: flex;
@@ -314,7 +314,7 @@ nav .fa {
   position: relative;
   transition: 0.5s;
   width: 100%;
-  border-radius: 20px;
+     border-radius: 10px;
   background-color: #fff3f3;
   text-align: center;
   /* padding: 120px 0px; */
@@ -476,7 +476,7 @@ nav .fa {
   background-position: center;
   background-size: cover;
   background-repeat: none;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   width: 100%;
   /* height: 63vh; */
 }
@@ -525,7 +525,7 @@ nav .fa {
   transition: 0.5s;
   width: 60%;
   text-align: left;
-  /* border-radius: 20px; */
+  /*    border-radius: 10px; */
   /* background-color: #fff3f3; */
   margin: 2% 1% 2% 1%;
   /* border: 2px solid rgb(255, 0, 0); */
@@ -559,7 +559,7 @@ nav .fa {
 .comment-box {
   border: 1px solid #ccc;
   padding: 10px 20px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   /* margin: 0% 0% 5% 0%; */
 }
 
@@ -609,7 +609,7 @@ nav .fa {
   transition: 0.5s;
   width: 40%;
   text-align: left;
-  /* border-radius: 20px; */
+  /*    border-radius: 10px; */
   /* background-color: #fff3f3; */
   margin: 2% 1% 2% 1%;
   /* border: 2px solid rgb(255, 0, 0); */
@@ -647,7 +647,7 @@ nav .fa {
   transition: 0.5s;
   width: 100%;
   text-align: left;
-  border-radius: 20px;
+     border-radius: 10px;
   /* background-color: #fff3f3; */
   margin: 2% 1% 2% 1%;
   /* border: 2px solid rgb(255, 0, 0); */

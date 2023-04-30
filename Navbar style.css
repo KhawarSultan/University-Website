@@ -79,6 +79,7 @@ a:hover {
 @media screen and (max-width: 910px) {
 
   .site-navbar {
+    top: 1rem;
     padding: 0px 0px;
   }
 }
