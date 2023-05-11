@@ -52,6 +52,6 @@ Aspiring to Create Your Websites with strong technical skills as a Front-End Dev
 
 ## Links
 [![GitHub](https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KhawarSultan)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=font-awesome&logoColor=white)](https://khawarportfolio.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-green?style=for-the-badge&logo=font-awesome&logoColor=white)](https://khawarportfolio.netlify.app/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khawar-sultan-989314209/)
 
